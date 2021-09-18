@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.parent {
+    display: flex;
+}
+
+.profile-img {
+    position: fixed;
+
+    width: 30%;
+    height: 100%;
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    
+    background-color: slateblue;
+}
+
+.profile-img img{
+    width: 40%;
+    border-radius: 50%;
+}
+
+section.descricao {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    text-align: justify;
+}
+
+.content {
+    left: 30%;
+    width: 70%;
+    height: 30%;
+    background-color: rgb(108, 97, 173);
+    position: absolute;
+}
+
+.intro {
+    position: fixed;
+    left: 30%;
+    top: 5%;
+}
+
+section.head {
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    margin-bottom:30px;
+    margin-left: 30px;
+    top: 5%;
+}
+
+
+section.purpose {
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.midia_left {
+    top:30%;
+    left: 30%;
+    width: 35%;
+    height: 70%;
+    background-color: rgb(108, 97, 173);
+    position: absolute;
+
+}
+
+section.pdf {
+    font-family: 'Oxygen', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.midia_right {
+    top:30%;
+    left: 65%;
+    width: 35%;
+    height: 70%;
+    background-color: rgb(108, 97, 173);
+    position: absolute;
+
+}
+
+section.video {
+    font-family: 'Oxygen', sans-serif;
+    font-size:20px;
+    font-weight: lighter;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: center;
+
+}
